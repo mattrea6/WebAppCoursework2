@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="utf-8" >
+	<title>The date of Easter</title>
+</head>
+<body>
+ <form action="pythonScript.py" method="GET">
+ <label for="Year">Enter the year you would like to find out about: </label>
+ <input type="number" id="Year" name="Year" /> <br />
+
+ <p>How would you like the date to be formatted?</p>
+ <label for="short">dd/mm/yyyy, eg: 20/04/2003</label>
+ <input type="radio" name="format" id="short" value="short"><br>
+
+ <label for="full">Full date format, eg: 20<sup>th</sup> of April 2003</label>
+ <input type="radio" name="format" id="full" value="full"><br>
+
+ <label for="both">Both date formats</label>
+ <input type="radio" name="format" id="both" value="both"><br>
+
+ <input type="submit" value="submit" />
+ </form>
+</body>
+</html>
