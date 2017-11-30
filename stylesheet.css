@@ -1,0 +1,10 @@
+p {
+	font-size: 12pt;
+	color: red;
+}
+
+label {
+	font-size: 14pt;
+	border: solid black;
+	margin:6pt;
+}
